@@ -11,5 +11,5 @@ namespace Offsets {
 
 namespace Options {
     inline const wchar_t* RedirectURL = L"http://127.0.0.1:3551";
-    static bool bConsole = true;
+    static bool bConsole = false;
 }
