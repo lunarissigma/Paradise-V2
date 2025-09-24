@@ -6,13 +6,10 @@
 
 void Main()
 {
-    if (Options::bConsole) {
-        AllocConsole();
-        SetConsoleTitleA("Paradise-V2 | github.com/lunarissigma/Paradise-V2");
-        FILE* f;
-        freopen_s(&f, "CONOUT$", "w", stdout);
-    }
-
+    AllocConsole();
+    SetConsoleTitleA("Paradise-V2 | github.com/lunarissigma/Paradise-V2");
+    FILE* f;
+    freopen_s(&f, "CONOUT$", "w", stdout);
     Startup::Init();
 }
 
