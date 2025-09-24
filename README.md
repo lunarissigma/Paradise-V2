@@ -1,6 +1,8 @@
 # Paradise-V2
 
-A universal SSL bypass/redirect for Fortnite, Supported on 1.7.2 - Latest!
+A SSL bypass/redirect for Fortnite
+
+Tested on 27.11
 
 ## Setup
 
